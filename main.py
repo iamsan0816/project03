@@ -6,3 +6,5 @@
 # git commit -m "add main.py"---進入commit
 # public branch
 print('hello')
+
+# README.md
