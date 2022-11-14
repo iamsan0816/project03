@@ -16,4 +16,28 @@ print('hello')
 # 移除套件 pip reinstall requires
 # pip install --upgrade 更新
 # pip install requests
+# requests的功能是做http的連線
 
+
+# web api openWeatherAPI  https://openweathermap.org/   
+# lesson01.ipynb
+
+import private
+print(private.secret.open_weather_key)
+
+
+# json解析器  online json viewer
+
+print(__name__)
+
+import datasource
+
+
+def main():
+    api_key = private.secret.open_weather_key
+    city = datasource.get_forcase_data("Taipei", api_key)
+    print(city)
+    
+
+if __name__ == "__main__":
+    main()
