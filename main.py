@@ -7,4 +7,5 @@
 # public branch
 print('hello')
 
-# README.md
+# README.md 在gitHub直接顯示內容
+# .gitignore 不會被追蹤
