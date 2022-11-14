@@ -8,3 +8,4 @@ def get_forcase_data(cityName, api_key):
         allData = response.json()
         city = allData['city']
         return city
+    raise Exception("下載失敗")
